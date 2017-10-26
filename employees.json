@@ -1,0 +1,65 @@
+{
+    "employees": 
+    [
+        {
+            "name" : "Amber",
+            "job"  : "user experience",
+            "image-name": "amber",
+            "email": "amber@acato.nl"
+        },     
+        {
+            "name" : "Brian",
+            "job"  : "realization",
+            "image-name": "brian",
+            "email": "brian@acato.nl"
+        },     
+        {
+            "name" : "Colin",
+            "job"  : "realization",
+            "image-name": "colin",
+            "email": "colin@acato.nl"
+        },    
+        {
+            "name" : "Corne",
+            "job"  : "realization",
+            "image-name": "corne",
+            "email": "corne@acato.nl"
+        },  
+        {
+            "name" : "Dario",
+            "job"  : "realization",
+            "image-name": "dario",
+            "email": "dario@acato.nl"
+        },   
+        {
+            "name" : "Gijs",
+            "job"  : "managing partner",
+            "image-name": "gijs",
+            "email": "gijs@acato.nl"
+        },    
+        {
+            "name" : "greitje",
+            "job"  : "HR and recruiting",
+            "image-name": "greitje",
+            "email": "greitje@acato.nl"
+        },   
+        {
+            "name" : "Jan",
+            "job"  : "realization",
+            "image-name": "jan",
+            "email": "jan@acato.nl"
+        },   
+        {
+            "name" : "Jerry",
+            "job"  : "realization",
+            "image-name": "Jerry",
+            "email": "jerry@acato.nl"
+        },     
+        {
+            "name" : "Joep",
+            "job"  : "kwispelaar",
+            "image-name": "joep",
+            "email": "joep@acato.nl"
+        }
+    ]
+}

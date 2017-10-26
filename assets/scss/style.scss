@@ -1,0 +1,167 @@
+@import "../node_modules/slick-carousel/slick/slick.scss";
+@import "../node_modules/slick-carousel/slick/slick-theme.scss";
+@import "hamburger.scss";
+
+
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url('fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),  url('fonts/OpenSans-Regular.woff') format('woff'), url('fonts/OpenSans-Regular.ttf')  format('truetype'), url('fonts/OpenSans-Regular.svg#OpenSans-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+    
+    font-family: 'OpenSans-Regular';
+}
+
+header{
+    z-index: 99999;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    top: 0;
+    right: 0;
+    bottom: auto;
+    left: 0;
+    background: #212837;
+    box-sizing: border-box;
+    -ms-box-shadow: 0 0 16px rgba(0,0,0,.5);
+    -o-box-shadow: 0 0 16px rgba(0,0,0,.5);
+    box-shadow: 0 0 16px rgba(0,0,0,.5);
+    padding-top: 5px;
+    
+    
+    label.burger {
+        color: #fff;
+        margin-left: 40px;
+    }
+    nav#navigation1{
+        padding-left: 40px;
+        background: rgba(33,40,55,.92);
+        position: relative;
+        top: 14px;
+        ul{
+            li{
+                padding: 10px 0;
+                &:first-of-type{
+                    padding-top: 30px;
+                }
+                &:last-of-type{
+                    padding-bottom: 30px;
+                }
+                a{
+                    font-size: 16px;
+                    color: #fff;
+                    will-change: color;
+                    transition: color 250ms ease-in-out;
+                    &:hover{
+                            color: #f5eb69;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+
+section#aboutus-text{
+    top: 60px;
+    position: relative;
+    width: 90%;
+    margin: 50px auto ;
+    h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+        &::before,&::after{
+                content: " ";
+                display: inline-block;
+                width: 20%;
+                position: relative;
+                border-bottom: 1px solid #1eb9dd;
+                bottom: 15px;
+                margin: 0 15px;
+        } 
+        
+    }
+    p{
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+section.carousel-container{
+  margin: 100px auto 0;
+  width: 80%;
+    .slick-slide{
+        margin: 0 1px;
+    }
+    .slick-track {
+        margin-top: 50px;
+        padding: 50px;
+    }
+    .slick-prev, .slick-next{
+        top: 60%;
+    }
+    .slick-prev {
+        left: -40px;
+    }
+    
+    .slick-next {
+        right: -40px;
+    }
+    .slick-prev:before, .slick-next:before{
+        color: #1eb9dd;
+        font-size: 25px;
+    }
+    
+    .single-emp{
+        position: relative;
+        h1,h3,h6{
+            -webkit-transition: 0.3s all ease-in-out;
+            -moz-transition: 0.3s all ease-in-out;
+            -o-transition: 0.3s all ease-in-out;
+            -ms-transition: 0.3s all ease-in-out;
+            transition: 0.3s all ease-in-out;
+            
+        }
+        h1,h3,h6{
+            color: #212837;
+        }
+        h1{
+            text-transform: capitalize;
+            text-align: center;
+            letter-spacing: 2px;
+            
+        }
+        h3{
+            margin-top: 45%;
+            margin-bottom: 0;
+            text-align: center;
+            text-transform: capitalize;
+        }
+        h6{
+            margin: 5px;
+            text-align: center;
+        }
+    
+        img {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 180px;
+            -webkit-transition: 0.3s all ease-in-out;
+            -moz-transition: 0.3s all ease-in-out;
+            -o-transition: 0.3s all ease-in-out;
+            -ms-transition: 0.3s all ease-in-out;
+            transition: 0.3s all ease-in-out;
+            z-index: 5;
+        }
+    
+    }
+}
+
+
+@import "responsive.scss";

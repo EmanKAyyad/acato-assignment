@@ -1,0 +1,12 @@
+{
+  "name": "assets",
+  "version": "1.0.0",
+  "main": "index.html",
+  "author": "Eman Khalifa",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "normalize.css": "^7.0.0",
+    "slick-carousel": "^1.8.1"
+  }
+}

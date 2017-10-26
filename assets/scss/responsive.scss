@@ -1,0 +1,17 @@
+@media (max-width: 1280px){
+    section.carousel-container{
+        .single-emp{
+            img{
+                height: 190px ;
+            }
+        }
+    }
+}
+
+@media (max-width: 480px){
+    section#aboutus-text{
+        h1{
+            font-size: 30px;
+        }
+    }
+}
